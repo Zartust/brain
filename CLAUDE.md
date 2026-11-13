@@ -16,7 +16,9 @@ is in context.)
 ## Working on this repo
 - Shared rules move in here one repo at a time, each in its own pull request that also removes them from that repo's
   `CLAUDE.md` and `AGENTS.md`. Until a rule has moved, the repo's own copy is the one that counts.
-- A skill comes in here only when more than one repo uses it, and its copies are deleted in the same change.
+- A skill comes in here when it would otherwise have more than one home (two repos, or a repo and the claude.ai
+  account). Its other copies are deleted in the same change, or listed for Zack to remove when only he can (the
+  claude.ai account).
 - Git author is Zack (`git config user.name "Zack Carns"`, `user.email zcarns03@gmail.com`); credit the agent in a
   `Co-Authored-By` trailer. Never rewrite history.
 - Changes to this file, `AGENTS.md` and `.claude/` are Zack's to merge, as in every repo.
