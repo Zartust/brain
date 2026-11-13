@@ -1,0 +1,7 @@
+# The other repos' clones, for Obsidian links only
+repos/
+
+# Obsidian's per-device state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.trash/
