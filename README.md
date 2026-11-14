@@ -12,7 +12,7 @@ Decided 2026-11-13 (Zartust/common-table-platform#60).
 
 | Where | How |
 |---|---|
-| Cloud sessions | Select `brain` beside the other repos when starting a session. Every attached repo's `CLAUDE.md` and `.claude/skills/` load, so nothing is copied or linked. |
+| Cloud sessions | Select `brain` beside the other repos when starting a session. If it isn't selected, each repo's `CLAUDE.md` tells the session to attach it first (`add_repo`, clone, `register_repo_root`; Zack, 2026-11-14), and it loads mid-session. Every attached repo's `CLAUDE.md` and `.claude/skills/` load, so nothing is copied or linked. |
 | Nightly runner | Adds `brain` with the other repos (`common-table-platform/docs/agent-runner.md` §1). |
 | Zack's PC | `~/.claude/CLAUDE.md` links to `brain/CLAUDE.md`, and each `~/.claude/skills/<name>` to `brain/.claude/skills/<name>`. |
 | Plugins | Installed by the cloud environment's setup script, not from here. `plugins.md` says which, why and at what cost. |
