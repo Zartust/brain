@@ -11,6 +11,8 @@ is in context.)
 - **What each repo is, and where its rules and memory live:** `repos.md`. Read the section for the repo you are about
   to change, then that repo's own `CLAUDE.md`.
 - **Plugins and skill suites:** `plugins.md`. ECC is installed but off; turn it on only for a task that needs it.
+- **Outside skill repos we've reviewed**, what we took and what we turned down: `skill-sources.md`. Check it before
+  adding a suite or copying a skill.
 - **Tasks:** GitHub issues. The index of priorities across all repos is Zartust/common-table-platform#38.
 
 ## Working on this repo
